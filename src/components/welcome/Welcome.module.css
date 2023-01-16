@@ -1,0 +1,42 @@
+.background{
+  width:920px;
+  height:675px;
+/* Resize the background image to cover the entire container */
+  border: 2px dashed rgb(6, 6, 6);
+  border-radius: 5px;
+  margin-left:490px;
+}
+
+.container{
+  background-image: url("../../resources/images/register.jpg");
+  height: 650px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 900px; 
+  width:900px;
+  margin:10px
+}
+
+.rules{
+  height:900px;
+  width:300px;
+  margin-left:500px;
+  padding-top:100px;
+}
+
+h1{
+  text-align: center;
+  
+}
+
+@media only screen and (max-width: 1600px) {
+  .background{
+    width:920px;
+    height:675px;
+  /* Resize the background image to cover the entire container */
+    border: 2px dashed rgb(6, 6, 6);
+    border-radius: 5px;
+    margin-left:320px;
+  }
+
+}

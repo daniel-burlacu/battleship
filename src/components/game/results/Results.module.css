@@ -1,0 +1,13 @@
+.results {
+    display: inline-block;
+    width: 340px;
+    height: 335px;
+    border: 1px solid black;
+    background: yellow;
+  }
+
+  .container {
+    flex: 1;
+    margin-top:10px;
+    padding-left: 30px;
+}  
